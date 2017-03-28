@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Tim-M" name="alarmclock.ClockTest" skipped="0" tests="4" time="2.123" timestamp="2017-03-23T18:00:17">
+<testsuite errors="0" failures="0" hostname="Tim-M" name="alarmclock.ClockTest" skipped="0" tests="3" time="0.044" timestamp="2017-03-28T17:22:23">
   <properties>
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="nb.wait.for.caches" value="true" />
@@ -42,7 +42,7 @@
     <property name="user.name" value="tim" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner alarmclock.ClockTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/tim/NetBeansProjects/AlarmClock/build/test/results/TEST-alarmclock.ClockTest.xml crashfile=/home/tim/NetBeansProjects/AlarmClock/build/junitvmwatcher5174733292419322746.properties propsfile=/home/tim/NetBeansProjects/AlarmClock/build/junit3536610648943381432.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner alarmclock.ClockTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/tim/NetBeansProjects/AlarmClock/build/test/results/TEST-alarmclock.ClockTest.xml crashfile=/home/tim/NetBeansProjects/AlarmClock/build/junitvmwatcher8940100703306964813.properties propsfile=/home/tim/NetBeansProjects/AlarmClock/build/junit4693958033538411414.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -311,10 +311,9 @@
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
   </properties>
-  <testcase classname="alarmclock.ClockTest" name="testRun" time="2.072" />
-  <testcase classname="alarmclock.ClockTest" name="testStep" time="0.001" />
-  <testcase classname="alarmclock.ClockTest" name="testAlarmComparison" time="0.001" />
-  <testcase classname="alarmclock.ClockTest" name="testAttributes" time="0.001" />
+  <testcase classname="alarmclock.ClockTest" name="testStep" time="0.002" />
+  <testcase classname="alarmclock.ClockTest" name="testAlarmComparison" time="0.0" />
+  <testcase classname="alarmclock.ClockTest" name="testAttributes" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

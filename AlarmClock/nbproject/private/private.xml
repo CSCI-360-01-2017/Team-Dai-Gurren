@@ -4,10 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/home/tim/NetBeansProjects/AlarmClock/src/alarmclock/Time.java</file>
-            <file>file:/home/tim/NetBeansProjects/AlarmClock/test/alarmclock/AlarmClockSuite.java</file>
             <file>file:/home/tim/NetBeansProjects/AlarmClock/src/alarmclock/Clock.java</file>
             <file>file:/home/tim/NetBeansProjects/AlarmClock/test/alarmclock/ClockTest.java</file>
-            <file>file:/home/tim/NetBeansProjects/AlarmClock/test/alarmclock/AlarmTest.java</file>
+            <file>file:/home/tim/NetBeansProjects/AlarmClock/test/alarmclock/AlarmClockControllerTest.java</file>
+            <file>file:/home/tim/NetBeansProjects/AlarmClock/src/alarmclock/Radio.java</file>
             <file>file:/home/tim/NetBeansProjects/AlarmClock/src/alarmclock/Alarm.java</file>
             <file>file:/home/tim/NetBeansProjects/AlarmClock/src/alarmclock/AlarmClockController.java</file>
         </group>
