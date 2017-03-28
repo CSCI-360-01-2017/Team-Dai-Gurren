@@ -3,9 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.csci360.alarmclock;
+package alarmclock;
 
-import alarmclock.*;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.logging.Level;
