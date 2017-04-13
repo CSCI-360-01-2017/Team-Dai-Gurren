@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.csci360.alarmclock;
-
-import alarmclock.*;
+package alarmclockgui;
 
 /**
  *
@@ -25,7 +23,7 @@ public class Radio
         selected = 1;
         for(int i = 1; i <= 206; i++)
         {
-            channels[i-1] = new Channel("White Noise", i);
+            channels[i-1] = new Channel("White Noise", String.format("%d.00", i));
         }
     }
     

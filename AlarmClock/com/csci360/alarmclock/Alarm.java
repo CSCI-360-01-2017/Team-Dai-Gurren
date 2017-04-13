@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.csci360.alarmclock;
-
-import alarmclock.*;
+package alarmclockgui;
 
 /**
  *
@@ -72,5 +70,11 @@ public class Alarm
     {
         this.time.step(0, 5, 0);
         this.state = ON;
+    }
+    
+    @Override
+    public String toString()
+    {
+        return this.time.toString();
     }
 }

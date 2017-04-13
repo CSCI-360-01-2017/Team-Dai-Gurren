@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.csci360.alarmclock;
-
-import alarmclock.*;
+package alarmclockgui;
 
 /**
  *
@@ -92,5 +90,18 @@ public class Time
     public int second()
     {
         return this.second;
+    }
+    
+    public void copy(Time time)
+    {
+        this.hour = time.hour;
+        this.minute = time.minute;
+        this.second = time.second;
+    }
+    
+    @Override
+    public String toString()
+    {
+        return String.format("%d:%d:%d", this.hour, this.minute, this.second);
     }
 }
