@@ -3,9 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.csci360.alarmclock;
+package alarmclockgui;
 
-import alarmclock.*;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.logging.Level;
@@ -42,9 +41,9 @@ public class Clock implements Runnable, Comparable
         this.controller = controller;
     }
     
-    public Clock(int hour, int minute, int second, AlarmClockController controller)
+    public Clock(Time time, AlarmClockController controller)
     {
-        this.time = new Time(hour, minute, second);
+        this.time = new Time(time);
         this.controller = controller;
     }
     
@@ -71,7 +70,7 @@ public class Clock implements Runnable, Comparable
     public void tick()
     {
         this.time.step();
-        this.controller.alarmCheck();
+        this.controller.step();
     }
     
     @Override
@@ -87,6 +86,12 @@ public class Clock implements Runnable, Comparable
     {
         Alarm alarm = (Alarm) object;
         return this.time().compareTo(new Time(alarm.time().hour(), alarm.time().minute(), this.time().second()));
+    }
+    
+    @Override
+    public String toString()
+    {
+        return this.time.toString();
     }
     
 }

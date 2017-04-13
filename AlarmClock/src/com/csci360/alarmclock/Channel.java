@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.csci360.alarmclock;
-
-import alarmclock.*;
+package alarmclockgui;
 
 /**
  *
@@ -14,15 +12,15 @@ import alarmclock.*;
 public class Channel 
 {
     public String sound;
-    public int frequency;
+    public String frequency;
     
     public Channel()
     {
         this.sound = "White Noise";
-        this.frequency = 0;
+        this.frequency = "0.00";
     }
     
-    public Channel(String sound, int frequency)
+    public Channel(String sound, String frequency)
     {
         this.sound = sound;
         this.frequency = frequency;
@@ -38,12 +36,12 @@ public class Channel
         return this.sound;
     }
     
-    public void frequency(int frequency)
+    public void frequency(String frequency)
     {
         this.frequency = frequency;
     }
     
-    public int frequency()
+    public String frequency()
     {
         return this.frequency;
     }

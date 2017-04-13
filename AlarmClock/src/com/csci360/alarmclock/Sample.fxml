@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="alarmclockgui.AlarmClockController">
+    <children>
+        <Label fx:id="time" layoutX="136.0" layoutY="44.0" minHeight="16" minWidth="69" prefHeight="101.0" prefWidth="307.0" text="12:00:00">
+         <font>
+            <Font size="64.0" />
+         </font></Label>
+        <Button fx:id="hour" layoutX="159.0" layoutY="152.0" onAction="#hour" text="Hour" />
+      <Button fx:id="minute" layoutX="248.0" layoutY="152.0" onAction="#minute" text="Minute" />
+      <Button fx:id="second" layoutX="352.0" layoutY="152.0" onAction="#second" text="Second" />
+      <Button fx:id="scanDown" layoutX="121.0" layoutY="241.0" mnemonicParsing="false" onAction="#scanDown" text="&lt;" />
+      <Button fx:id="scanUp" layoutX="230.0" layoutY="241.0" mnemonicParsing="false" onAction="#scanUp" text="&gt;" />
+      <Button fx:id="toggleFreq" layoutX="159.0" layoutY="241.0" mnemonicParsing="false" onAction="#toggleAMFM" text="AM/FM" />
+      <Label fx:id="radioChannel" layoutX="145.0" layoutY="199.0" text="100.00">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="changeButton" layoutX="363.0" layoutY="204.0" mnemonicParsing="false" onAction="#change" text="Change" />
+      <Button fx:id="alarm1" layoutX="351.0" layoutY="241.0" mnemonicParsing="false" onAction="#displayAlarm1" text="Alarm 1" />
+      <Button fx:id="alarm2" layoutX="431.0" layoutY="241.0" mnemonicParsing="false" onAction="#displayAlarm2" text="Alarm 2" />
+      <Button fx:id="snooze" layoutX="454.0" layoutY="81.0" mnemonicParsing="false" onAction="#snooze" text="Snooze" />
+      <Label fx:id="soundPlayer" layoutX="443.0" layoutY="129.0" prefHeight="47.0" prefWidth="131.0" text="no alarms going off" />
+      <Button fx:id="clockButton" layoutX="439.0" layoutY="204.0" mnemonicParsing="false" onAction="#displayClock" text="Clock" />
+      <CheckBox layoutX="465.0" layoutY="14.0" mnemonicParsing="false" onAction="#toggleAlarm1" text="Alarm1" />
+      <CheckBox layoutX="465.0" layoutY="35.0" mnemonicParsing="false" onAction="#toggleAlarm2" text="Alarm2" />
+    </children>
+</AnchorPane>
